@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.img{
+    background-image: url(bg2.jpg);
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+}
+
+/* Style the navigation menu */
+.topnav {
+    overflow: -moz-hidden-unscrollable;
+    background-color: transparent;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+    float: right;
+   font-weight: bold;
+   margin-top: 5rem;
+ 
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  .topnav img {
+    width: 243px;
+    height: 80px;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: #062648;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+ #mylinks{
+    display: flex;
+    align-items: flex-end;
+
+ }
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color:  #a2a8d3;
+    color: #e7eaf6;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .container{
+   height: 40%;
+   background-color: transparent;
+   color: #e7eaf6;
+   display: flex; justify-content: end;
+   align-content: center;
+   float: left;
+   margin-top: 10em;
+   width: 20%;
+   border-radius: 12px;
+   padding: 34px;
+   width: auto;
+   overflow-y:scroll ;
+   margin-left: 2%;
+   
+}
+
+
+::-webkit-scrollbar {
+  width: 0.5em;
+  height: 1em;
+}
+
+::-webkit-scrollbar-track {
+  background: #103d6e;
+  border-radius: 100vw;
+  margin-block: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #869fdf;
+  border: 0.25em solid #869fdf;
+  border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(120 100% 10% / 1);
+}
+
+
+.songItem img{
+    width: 43px;
+    margin: 0 2rem;
+    border-radius: 34px;
+    padding-top: 10px;
+}
+
+.songItemcontainer{
+    margin-top: 50px;
+}
+
+.bottom{
+    position: fixed;
+    bottom: 0;
+    height: 130px;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    width: 100%;
+}
+
+#myProgressBar{
+    width: 80vw; 
+    cursor: pointer;
+}
